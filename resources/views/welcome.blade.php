@@ -3,15 +3,30 @@
 @section('title', 'Eventos')
 
 @section('content')
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h1>Eventos - Laravel Project</h1>
-          @foreach($events as $event)
-            <p>{{ $event->title }}</p>
-          @endforeach
+
+      <div id="search-container" class="col-md-12">
+        <h1>Busque um evento</h1>
+        <form action="">
+          <input type="text" id="search" name="search" class="form-control" placeholder="Procurar..."/>
+        </form>
       </div>
-    </div>
-  </div>
+        <div id="events-container" class="col-md-12">
+          <h2>Próximos Eventos</h2>
+          <p class="subtitle">Veja os eventos dos próximos dias</p>
+          <div id="cards-container" class="row">
+            @foreach($events as $event)
+              <div class="card col-md3">
+                <img src="/img/events/{{ $event->image }}"/>
+                <div class="card-body">
+                  <div class="card-date">10/09/2021</div>
+                  <div class="card-title">{{ $event->title }}</div>
+                  <div class="card-participants">X participantes</div>
+                  <a href="#" class="btn btn-primary">Saber mais</a>
+                </div>
+              </div>
+            @endforeach
+          </div>
+        </div>
+
 
 @endsection
