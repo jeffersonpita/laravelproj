@@ -33,6 +33,24 @@
             <option value="1">Sim</option>
           </select>
         </div>
+        <div class="form-group">
+          <label for="private">Adicione itens de infraestrutura:</label>
+          <div class="form-group">
+            <input type="checkbox" name="items[]" value="Cadeiras"> Cadeiras
+          </div>
+          <div class="form-group">
+            <input type="checkbox" name="items[]" value="Palco"> Palco
+          </div>
+          <div class="form-group">
+            <input type="checkbox" name="items[]" value="Cerveja"> Cerveja
+          </div>
+          <div class="form-group">
+            <input type="checkbox" name="items[]" value="OpenFood"> OpenFood
+          </div>
+          <div class="form-group">
+            <input type="checkbox" name="items[]" value="Brindes"> Brindes
+          </div>
+        </div>
         <input type="submit" class="btn btn-primary" value="Criar Evento"/>
       </form>
     </div>

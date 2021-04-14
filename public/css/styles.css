@@ -107,6 +107,50 @@ header {
   padding: 10px;
 }
 
+#image-container,
+#info-container {
+  margin-top: 30px;
+}
+
+#image-container IMG {
+  border-radius: 10px;
+}
+
+#info-container h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#info-container p {
+  font-size: 14;
+  display: flex;
+  margin: 0px;
+}
+#info-container h3,
+#description-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#info-container ion-icon {
+  font-size: 20px;
+  color: #f2a340;
+  margin-right: 5px;
+}
+#info-container #event-submit {
+  margin: 20px 0;
+}
+
+#items-list {
+  list-style: none;
+  padding-left: 0;
+
+}
+#items-list li { 
+  display: flex;
+}
+
+
 footer {
   text-align : center;
   background-color: #353E48;
