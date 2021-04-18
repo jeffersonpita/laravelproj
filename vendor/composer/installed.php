@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'v8.5.15',
-    'version' => '8.5.15.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'f61bbf5db32312ac10021060c180e05134ccdfe8',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -19,6 +19,15 @@
       array (
       ),
       'reference' => '9cb795bf30988e8c96dd3c40623c48a877bc6714',
+    ),
+    'bacon/bacon-qr-code' => 
+    array (
+      'pretty_version' => '2.0.3',
+      'version' => '2.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3e9d791b67d0a2912922b7b7c7312f4b37af41e4',
     ),
     'brick/math' => 
     array (
@@ -35,6 +44,15 @@
       array (
         0 => '*',
       ),
+    ),
+    'dasprid/enum' => 
+    array (
+      'pretty_version' => '1.0.3',
+      'version' => '1.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5abf82f213618696dda8e3bf6f64dd042d8542b2',
     ),
     'davedevelopment/hamcrest-php' => 
     array (
@@ -422,12 +440,39 @@
         0 => 'v8.35.1',
       ),
     ),
+    'jaybizzle/crawler-detect' => 
+    array (
+      'pretty_version' => 'v1.2.105',
+      'version' => '1.2.105.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '719c1ed49224857800c3dc40838b6b761d046105',
+    ),
+    'jenssegers/agent' => 
+    array (
+      'pretty_version' => 'v2.6.4',
+      'version' => '2.6.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'daa11c43729510b3700bc34d414664966b03bffe',
+    ),
     'kodova/hamcrest-php' => 
     array (
       'replaced' => 
       array (
         0 => '*',
       ),
+    ),
+    'laravel/fortify' => 
+    array (
+      'pretty_version' => 'v1.7.10',
+      'version' => '1.7.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '82c99b6999f7e89f402cfd7eb4074e619382b3b7',
     ),
     'laravel/framework' => 
     array (
@@ -438,14 +483,23 @@
       ),
       'reference' => 'd118c0df39e7524131176aaf76493eae63a8a602',
     ),
-    'laravel/laravel' => 
+    'laravel/jetstream' => 
     array (
-      'pretty_version' => 'v8.5.15',
-      'version' => '8.5.15.0',
+      'pretty_version' => 'v2.3.2',
+      'version' => '2.3.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'cf7a8eb8b3b7ea219b9503df87d3ebefa36f335b',
+    ),
+    'laravel/laravel' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f61bbf5db32312ac10021060c180e05134ccdfe8',
     ),
     'laravel/sail' => 
     array (
@@ -455,6 +509,15 @@
       array (
       ),
       'reference' => '4f0b2bac128ee60a11d9758651f103f78157474a',
+    ),
+    'laravel/sanctum' => 
+    array (
+      'pretty_version' => 'v2.9.4',
+      'version' => '2.9.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'dd84a9141012c5509922df0c72866110f45026cb',
     ),
     'laravel/tinker' => 
     array (
@@ -491,6 +554,24 @@
       array (
       ),
       'reference' => '3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
+    ),
+    'livewire/livewire' => 
+    array (
+      'pretty_version' => 'v2.4.3',
+      'version' => '2.4.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '69575f50bb7f8a49a41f9bd6bd16c73a6ef4fda3',
+    ),
+    'mobiledetect/mobiledetectlib' => 
+    array (
+      'pretty_version' => '2.8.37',
+      'version' => '2.8.37.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9841e3c46f5bd0739b53aed8ac677fa712943df7',
     ),
     'mockery/mockery' => 
     array (
@@ -565,6 +646,15 @@
       array (
       ),
       'reference' => '943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5',
+    ),
+    'paragonie/constant_time_encoding' => 
+    array (
+      'pretty_version' => 'v2.4.0',
+      'version' => '2.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f34c2b11eb9d2c9318e13540a1dbc2a3afbd939c',
     ),
     'phar-io/manifest' => 
     array (
@@ -683,6 +773,15 @@
       ),
       'reference' => 'c73c6737305e779771147af66c96ca6a7ed8a741',
     ),
+    'pragmarx/google2fa' => 
+    array (
+      'pretty_version' => '8.0.0',
+      'version' => '8.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '26c4c5cf30a2844ba121760fd7301f8ad240100b',
+    ),
     'psr/container' => 
     array (
       'pretty_version' => '1.1.1',
@@ -760,8 +859,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 

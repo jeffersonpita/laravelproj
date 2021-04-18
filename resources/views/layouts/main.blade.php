@@ -34,12 +34,26 @@
             <li class="nav-item {{ (request()->is('events/create')) ? 'active' : '' }}">
               <a class="nav-link" href="/events/create">Criar Eventos</a>
             </li>
+            @auth
             <li class="nav-item">
-              <a class="nav-link" href="#">Entrar</a>
+              <a class="nav-link" href="/dashboard">Meus Eventos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cadastrar</a>
+              <form action="/logout" method="POST">
+                @csrf
+                <a class="nav-link" href="/logout" onclick="event.preventDefault(); this.closest('form').submit();">Sair</a>
+              </form>
             </li>
+            @endauth
+            @guest
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Entrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register">Cadastrar</a>
+            </li>
+            @endguest
+
           </ul>
         </div>
       </nav>

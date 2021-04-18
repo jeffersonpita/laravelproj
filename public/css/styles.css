@@ -146,10 +146,26 @@ header {
   padding-left: 0;
 
 }
-#items-list li { 
+#items-list li {
   display: flex;
 }
 
+.dashboard-title-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.dashboard-events-container {
+
+}
+
+.dashboard-events-container form {
+  display: inline-block;
+}
+
+.image-preview {
+  max-width: 100px;
+  margin-top: 20px;
+}
 
 footer {
   text-align : center;

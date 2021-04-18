@@ -15,7 +15,7 @@ class AddItemsToEventsTable extends Migration
     {
         Schema::table('events', function (Blueprint $table) {
             //
-            $table->string('items');
+            $table->string('items')->nullable();
         });
     }
 
